@@ -1,0 +1,32 @@
+import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas, BeeCanvas } from './canvas';
+import Hero from "./Hero";
+import Navbar from "./Navbar";
+import About from "./About";
+import Tech from "./Tech";
+import Experience from "./Experience";
+import Works from "./Works";
+import Contact from "./Contact";
+import CanvasLoader from "./Loader";
+import ScrollToTop from "./ScrollToTop";
+import CTAButtons from "./CTAButtons";
+import Greeting from "./Greeting";
+
+
+export {
+  Hero,
+  Navbar,
+  About,
+  Tech,
+  Experience,
+  Works,
+  Contact,
+  CanvasLoader,
+  EarthCanvas,
+  BallCanvas,
+  ComputersCanvas,
+  StarsCanvas,
+  BeeCanvas,
+  ScrollToTop,
+  CTAButtons,
+  Greeting,
+};

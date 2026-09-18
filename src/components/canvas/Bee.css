@@ -1,0 +1,26 @@
+.bee-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  pointer-events: none;
+  /* the bee should read as if it is in the room, not stamped on the glass */
+  filter: drop-shadow(0 18px 26px rgba(5, 8, 22, 0.55));
+}
+
+.bee-layer canvas {
+  pointer-events: none !important;
+}
+
+@media (max-width: 640px) {
+  .bee-layer {
+    /* smaller viewport, smaller bee */
+    transform: scale(0.72);
+    transform-origin: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bee-layer {
+    display: none;
+  }
+}
